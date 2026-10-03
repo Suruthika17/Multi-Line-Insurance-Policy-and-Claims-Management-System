@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <label>Insurance Management</label>
+
+    <description>
+        Multi-Line Insurance Policy and Claims Management System
+    </description>
+
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+
+    <tabs>
+        <name>Insurance_Dashboard</name>
+    </tabs>
+
+    <tabs>
+        <name>Customer__c</name>
+    </tabs>
+
+    <tabs>
+        <name>Insurance_Policy__c</name>
+    </tabs>
+
+    <tabs>
+        <name>Claim__c</name>
+    </tabs>
+
+    <tabs>
+        <name>Payment__c</name>
+    </tabs>
+
+    <tabs>
+        <name>Insurance_Agent__c</name>
+    </tabs>
+
+</CustomApplication>
