@@ -1,0 +1,47 @@
+<template>
+
+    <lightning-card
+        title="Insurance Management Dashboard"
+        icon-name="standard:insurance">
+
+        <div class="dashboard">
+
+            <div class="card">
+                <div class="title">Customers</div>
+                <div class="value">{customerCount}</div>
+            </div>
+
+            <div class="card">
+                <div class="title">Policies</div>
+                <div class="value">{policyCount}</div>
+            </div>
+
+            <div class="card">
+                <div class="title">Total Claims</div>
+                <div class="value">{claimCount}</div>
+            </div>
+
+            <div class="card">
+                <div class="title">Pending Claims</div>
+                <div class="value">{pendingClaimCount}</div>
+            </div>
+
+            <div class="card">
+                <div class="title">Total Premium</div>
+                <div class="value">
+                    ₹{totalPremium}
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="title">Claim Amount</div>
+                <div class="value">
+                    ₹{totalClaimAmount}
+                </div>
+            </div>
+
+        </div>
+
+    </lightning-card>
+
+</template>
