@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document_Type__c</fullName>
+    <label>Document Type</label>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Identity Proof</fullName>
+                <default>false</default>
+                <label>Identity Proof</label>
+            </value>
+            <value>
+                <fullName>Medical Report</fullName>
+                <default>false</default>
+                <label>Medical Report</label>
+            </value>
+            <value>
+                <fullName>Police Report</fullName>
+                <default>false</default>
+                <label>Police Report</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>true</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
