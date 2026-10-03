@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <label>Insurance Manager</label>
+
+    <description>
+        Permissions for Insurance Management System users
+    </description>
+
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <object>Customer__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <object>Insurance_Policy__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <object>Claim__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <object>Payment__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+
+</PermissionSet>
